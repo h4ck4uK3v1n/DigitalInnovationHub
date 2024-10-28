@@ -1,0 +1,11 @@
+{
+  "baseFontSize": 13,
+  "accentColor": "#9fef00",
+  "cssTheme": "Hackthebox",
+  "interfaceFontFamily": "Hack Nerd Font Mono,Hack Nerd Font",
+  "baseFontSizeAction": true,
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "styles"
+  ]
+}

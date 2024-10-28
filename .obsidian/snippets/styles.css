@@ -1,0 +1,302 @@
+mark {
+  background-color: #9fef00;
+}
+
+:root {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  --blue: #0086ff;
+  --indigo: #58008f;
+  --red: #ff3e3e;
+  --orange: #ff7e3d;
+  --yellow: #ffaf00;
+  --green: #9fef00;
+  --teal: #18c99a;
+  --cyan: #2ee7b6;
+  --white: #ffffff;
+  --gray: #bdc7db;
+  --gray-dark: #d8dde9;
+  --primary: #0086ff;
+  --secondary: #bdc7db;
+  --success: #9fef00;
+  --info: #2ee7b6;
+  --warning: #ffaf00;
+  --danger: #ff3e3e;
+  --light: #1a2332;
+  --dark: #d8dde9;
+  --pink: #e82ecc;
+  --purple: #9f00ff;
+  --discord: #5865f2;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1440px;
+  --font-family-sans-serif: "neue-haas-unica", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-style-family-duotone: "Font Awesome 6 Duotone";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Pro";
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Pro";
+  --fa-style-family-classic: "Font Awesome 6 Pro";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-style-family-sharp: "Font Awesome 6 Sharp";
+  --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";
+  --fa-style-family-sharp-duotone: "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 6 Sharp Duotone";
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a4b1cd;
+  text-align: left;
+  font-size: medium;
+  border: 3px solid #1a2332;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 20px 0 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.window_container {
+  border: 1px solid rgb(17, 170, 35);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: var(--light);
+}
+
+.window_content {
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(90deg, #1a23 0%, #1a2332 100%);
+}
+
+.window_top {
+  padding: 5px;
+  background: #1a2332;
+  box-sizing: border-box;
+  border-radius: 4px 4px 0 0;
+  background-image: linear-gradient(90deg, #1a2332 0%, #1a23 100%);
+}
+
+.window_title {
+  position: absolute;
+  display: inline-block;
+  transform: translate(-50%);
+  left: 50%;
+}
+
+.window_dot {
+  height: 12px;
+  width: 12px;
+  margin-right: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.bg-danger {
+  background-color: #ff3e3e !important;
+}
+.bg-warning {
+  background-color: #ffaf00 !important;
+}
+.bg-success {
+  background-color: #9fef00 !important;
+}
+
+.text-success {
+  color: #9fef00 !important;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #a4b1cd;
+  background: 0 0;
+  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.training-module code {
+  font-family: JetBrainsMono-Regular, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+.language-bash {
+  color: var(--teal);
+}
+.output {
+  color: var(--gray);
+}
+
+.text-gray {
+  color: var(--primary) !important;
+}
+
+.title {
+  color: var(--green) !important;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 1);
+}
+
+.card {
+  background-color: transparent;
+  border: 1px solid #9fef00;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+}
+.progress-ring {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(#9fef00 0% 39%, #1a1a1a 39% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+.progress-ring::before {
+  content: "39%";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #0f0f0f;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #9fef00;
+}
+.tier {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.message {
+  color: #9fef00;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.tag {
+  background-color: #9fef00;
+  color: #1a2332;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.status-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.status-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  color: white;
+}
+
+.status-icon.solved {
+  background-color: var(--green); /* Green color */
+}
+
+.status-icon:not(.solved) {
+  background-color: #ef4444; /* Red color */
+}
+
+.status-icon:not(.solved) .checkmark {
+  display: none;
+}
+
+.status-icon.solved .cross {
+  display: none;
+}
+
+.header {
+  background-color: #1a2332;
+  color: #9fef00;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #9fef00;
+  background-image: linear-gradient(90deg, #1a2332 0%, #1a23 100%);
+}
+
+/*tip card*/
+
+.tip-card {
+  background-color: #1c2635;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 4px 6px #1a23;
+  border: 1px solid rgb(17, 170, 35);
+  background: rgba(17, 170, 35, 0.125);
+}
+.icon {
+  margin-right: 15px;
+  font-size: 24px;
+  color: #9fef00;
+}
+.content {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/*end tip card*/
+
+/* images styles for banner */
+img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 20px auto 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.295);
+  object-fit: cover;
+}

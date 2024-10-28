@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "013c4a9cd7ff0e7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a500a6225b88362e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e40041fac21dad60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sql injection/commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "commands"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22661e24f4df1c92",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a3ebca54fd7b062",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fabf15864306450",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "e0d0bb62f2256d28",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Introduction",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "c6d46b9d4f998ae5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5
+  },
+  "right": {
+    "id": "643e25f527b4e7ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "8149ab69f848d302",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a469a4a10894ff72",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "htb-academy/PLANIFICACION.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de PLANIFICACION"
+            }
+          },
+          {
+            "id": "686a71ee37787569",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "htb-academy/PLANIFICACION.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de PLANIFICACION"
+            }
+          },
+          {
+            "id": "818f4e7aa12056a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "d07c1244da64befc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "htb-academy/ENUMERACIÓN DE REDES CON NMAP/1. Enumeración de host.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 1. Enumeración de host"
+            }
+          },
+          {
+            "id": "aa71cfb65153cb6f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "zk-prefixer:Crear nueva nota única": false,
+      "workspaces:Gestionar disposiciones de espacio de trabajo": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "e40041fac21dad60",
+  "lastOpenFiles": [
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/FUNDAMENTOS DE LINUX.md",
+    "2024-10-17.md",
+    "2024-10-22.md",
+    "202410241659.md",
+    "Programación Funcional Con Java ae32563745dc467fb864925c4e9db63b.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS/5. Linux Networking.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS/6. Linux Hardening.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS/7. Distribuciones Linux vs Solaris.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS/8. Consejos y trucos.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS/Sin nombre",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS/4. Gestión del sistema.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS/3. Flujo de trabajo.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS/1. Introducción.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS/2. La Shell.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/TEMAS",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/ANEXOS/Linux_Fundamentals_Module_Cheat_Sheet.pdf",
+    "htb-academy/labs/Tier I/README.md",
+    "htb-academy/MODULOS/ATAQUES DEL LADO DEL SERVIDOR/Ataques del lado del servidor.md",
+    "htb-academy/MODULOS/ENUMERACIÓN DE REDES CON NMAP/1. Enumeración de host.md",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/ANEXOS/fundamentos-de-linux.png",
+    "htb-academy/ROAD-MAP.canvas",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX/ANEXOS",
+    "htb-academy/MODULOS/FUNDAMENTOS DE LINUX",
+    "htb-academy/MODULOS",
+    "htb-academy/labs/Academia x HTB Labs.canvas",
+    "htb-academy/MODULOS/ATAQUES DEL LADO DEL SERVIDOR",
+    "htb-academy/ANEXOS/server-side-attacks.png",
+    "htb-academy/MODULOS/ENUMERACIÓN DE REDES CON NMAP/ENUMERACION DE REDES CON NMAP.md",
+    "htb-academy/MODULOS/ENUMERACIÓN DE REDES CON NMAP/2. Evitar medidas de seguridad.md",
+    "htb-academy/labs/ANEXOS/Editorial.png",
+    "htb-academy/MODULOS/ENUMERACIÓN DE REDES CON NMAP/ANEXOS/Network_Enumeration_With_Nmap_Module_Cheat_Sheet.pdf",
+    "htb-academy/labs/ANEXOS",
+    "htb-academy/labs/Helper.md",
+    "htb-academy/labs/1. punto de partida.md",
+    "htb-academy/MODULOS/ENUMERACIÓN DE REDES CON NMAP/ANEXOS",
+    "htb-academy/ANEXOS/nmap.png",
+    "htb-academy/ANEXOS/metasploit.png",
+    "software-developer/Git y GitHub.md",
+    "software-developer/ANEXOS/Untitled.png",
+    "software-developer/ANEXOS/Untitled 1.png",
+    "software-developer/ANEXOS/Untitled 2.png",
+    "software-developer/ANEXOS/Untitled 3.png",
+    "english-academy/Tiempos Verbales.md",
+    "english-academy/PLANIFICACION.md",
+    "english-academy/VERBOS REGULARES.md",
+    "htb-academy/proceso de aprendisaje/1. Mentalidad.md",
+    "htb-academy/proceso de aprendisaje/2. Dependencias de aprendizaje.md",
+    "htb-academy/ANEXOS/windowsCMD.png"
+  ]
+}

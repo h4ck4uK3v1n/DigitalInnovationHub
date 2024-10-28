@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"0f527f0713cc9955","type":"file","file":"htb-academy/labs/ANEXOS/Editorial.png","x":-100,"y":-360,"width":160,"height":160,"color":"5"},
+		{"id":"7b20fe1393e50328","type":"text","text":"- Maquina: Editorial\n- OS: Linux\n- Dificultad: Fácil","x":-162,"y":-100,"width":285,"height":104,"color":"5"},
+		{"id":"942bc7ed562d7183","type":"text","text":"# MODULOS","x":-126,"y":60,"width":213,"height":50,"color":"5"},
+		{"id":"688326a5bb5f2102","type":"file","file":"htb-academy/ANEXOS/server-side-attacks.png","x":-341,"y":294,"width":321,"height":170},
+		{"id":"ded51e2a784c717c","x":-341,"y":464,"width":321,"height":60,"type":"text","text":"[[Ataques del lado del servidor]]"},
+		{"id":"f3bb26b3ab03ccfe","type":"text","text":"[[ENUMERACION DE REDES CON NMAP | ENUMERACION DE REDES CON NMAP]]","x":-760,"y":463,"width":320,"height":60,"color":"5"},
+		{"id":"f492c61d76eed952","type":"file","file":"htb-academy/ANEXOS/nmap.png","x":-760,"y":294,"width":319,"height":169,"color":"5"}
+	],
+	"edges":[
+		{"id":"90c87bad857c81ea","fromNode":"0f527f0713cc9955","fromSide":"bottom","toNode":"7b20fe1393e50328","toSide":"top"},
+		{"id":"fcb864f31efff477","fromNode":"7b20fe1393e50328","fromSide":"bottom","toNode":"942bc7ed562d7183","toSide":"top"},
+		{"id":"62e786b5ae268038","fromNode":"942bc7ed562d7183","fromSide":"bottom","toNode":"f492c61d76eed952","toSide":"top"},
+		{"id":"41af1d77b71b0bf0","fromNode":"942bc7ed562d7183","fromSide":"bottom","toNode":"688326a5bb5f2102","toSide":"top"}
+	]
+}

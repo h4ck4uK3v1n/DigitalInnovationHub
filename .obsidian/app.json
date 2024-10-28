@@ -1,0 +1,16 @@
+{
+  "showLineNumber": false,
+  "trashOption": "local",
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./ANEXOS",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 47
+  },
+  "readableLineLength": false,
+  "strictLineBreaks": true
+}
